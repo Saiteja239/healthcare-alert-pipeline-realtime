@@ -9,7 +9,7 @@ A real-time data pipeline that simulates patient vitals ingestion using HL7/FHIR
 - Kafka Producer — Streams mock HL7/FHIR patient vitals (heart rate, oxygen level).
 - PySpark Stream Processor — Reads from Kafka and transforms the data.
 - Alert Engine — Detects anomalies (high heart rate, low oxygen).
-- Simulated Snowflake Load** — Data is stored in a PostgreSQL/Snowflake-like database.
+- Simulated Snowflake Load — Data is stored in a PostgreSQL/Snowflake-like database.
 - Modular Codebase — Clean, extendable Python scripts.
 
 ---
@@ -19,7 +19,8 @@ A real-time data pipeline that simulates patient vitals ingestion using HL7/FHIR
 - Python
 - Apache Kafka
 - PySpark
-- PostgreSQL (Snowflake simulation)
+- PostgreSQL
+- Snowflake
 - Docker
 - Git & GitHub
 
