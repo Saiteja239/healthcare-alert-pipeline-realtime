@@ -1,12 +1,29 @@
-# Real-Time Healthcare Alerts Pipeline
+# 🏥 Real-Time Healthcare Alerts Pipeline
 
-This project simulates a real-time healthcare data pipeline using Apache Kafka, PySpark, and Python to detect clinical anomalies from patient data.
+A real-time data pipeline that simulates patient vitals ingestion using HL7/FHIR-style mock data. It uses Apache Kafka, PySpark, and a Snowflake-like database to detect abnormal health conditions and trigger alerts in near real-time.
 
-Ingest mock HL7/FHIR patient data, process it in real-time, and generate alerts for abnormal conditions (e.g., high heart rate, low oxygen level). Built for showcasing real-time streaming and alerting systems.
+---
 
-- **Apache Kafka** – for real-time data ingestion
-- **PySpark** – for transformation and rule processing
-- **Python** – for orchestration and alerts
-- **(Simulated) Snowflake** – mock final load target (optional)
-📂 Folder Structure
+## 🚀 Key Features
+
+- Kafka Producer** — Streams mock HL7/FHIR patient vitals (heart rate, oxygen level).
+- PySpark Stream Processor** — Reads from Kafka and transforms the data.
+- Alert Engine** — Detects anomalies (e.g., high heart rate, low oxygen).
+- Simulated Snowflake Load** — Data is stored in a PostgreSQL/Snowflake-like database.
+- Modular Codebase** — Clean, extendable Python scripts.
+
+---
+
+## 🧰 Tech Stack
+
+- Python
+- Apache Kafka
+- PySpark
+- PostgreSQL (Snowflake simulation)
+- Docker
+- Git & GitHub
+
+---
+
+## 🧪 How It Works
 
