@@ -1,0 +1,1 @@
+def check_alerts(record):    alerts = []    if record["heart_rate"] > 120:        alerts.append(f"⚠️ High heart rate detected for {record['name']} ({record['heart_rate']} bpm)")    if record["oxygen_saturation"] < 92:        alerts.append(f"⚠️ Low oxygen level for {record['name']} ({record['oxygen_saturation']}%)")    return alerts
